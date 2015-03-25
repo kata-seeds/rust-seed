@@ -4,7 +4,7 @@ pub struct Person {
 
 impl Person {
     pub fn new() -> Person {
-        Person { greeting: "Hello!"}
+        Person { greeting: "Hello!" }
     }
 
     pub fn greet(&self) -> &'static str {
