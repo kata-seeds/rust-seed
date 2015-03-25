@@ -1,0 +1,9 @@
+[package]
+name = "rust-seed"
+version = "0.0.1"
+authors = ["Ted Fujimoto <tfturing@gmail.com>"]
+repository = "https://github.com/kata-seeds/rust-seed"
+
+[lib]
+name = "rust_seed"
+path = "src/lib.rs"
